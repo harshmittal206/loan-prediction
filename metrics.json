@@ -1,0 +1,33 @@
+{
+  "selected_model": "Random Forest",
+  "scikit_learn_version": "1.8.0",
+  "test_size": 0.2,
+  "random_state": 42,
+  "test_metrics": [
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.977751756440281,
+      "Precision": 0.975,
+      "Recall": 0.9659442724458205,
+      "F1": 0.9704510108864697,
+      "ROC_AUC": 0.997731950347787
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.9718969555035128,
+      "Precision": 0.9901639344262295,
+      "Recall": 0.934984520123839,
+      "F1": 0.9617834394904459,
+      "ROC_AUC": 0.9937351687627176
+    },
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.9227166276346604,
+      "Precision": 0.9158576051779935,
+      "Recall": 0.8761609907120743,
+      "F1": 0.8955696202531646,
+      "ROC_AUC": 0.9745092208753855
+    }
+  ],
+  "note": "Metrics from held-out test set; deployment model refit on all dataset rows."
+}
